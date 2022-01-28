@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/form-style.css">
+    <title>message form</title>
+</head>
+<body>
+    <div class="form">
+    <form action="">
+        <div class="logo"></div>
+        <div class="title">Mahsa Irankhah</div>
+        <div class="fields">
+        <div class="name">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" placeholder="your name">
+        </div>
+        <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@email.com">
+        </div>
+        <div class="message">
+            <label for="text-area">write your message:</label>
+            <textarea name="text" id="text-area" cols="30" rows="10"></textarea>
+        </div>
+        <div class="nationality">
+            <label for="nationality">Are you from Iran?</label>
+            <input type="radio" name="nationality" id="nationality" value="yes">yes
+            <input type="radio" name="nationality" id="nationality" value="no">no
+        </div>
+        <div class="project">
+            <label for="project">type of project</label>
+            <select name="project" id="project">
+              <option value="type of project" disabled>select the type of project</option>
+              <option value="nothing">nothing</option>
+              <option value="ui design">ui design</option>
+              <option value="web developement">web developement</option>
+              <option value="full time job">full time job</option>
+            </select>
+        </div>
+    </div>
+        
+    
+        <button type="submit">send</button>
+    </div>
+
+
+    </form>
+    <script>
+        alert("this page's data goes nowhere! My goal is to show case form design skills")
+    </script>
+</body>
+</html>
